@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="https://www.shutterstock.com/image-vector/icon-document-magnifying-glass-medical-260nw-1063908260.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/442b9c2552.js"
+      crossorigin="anonymous"></script>
+    <title>Student Record System</title>
+  </head>
+  <body>
+    <!-- Box to add and update the data -->
+    <div class="container">
+     <!-- heading -->
+      <header class="heading">
+        <h1>Students Record System</h1>
+        <p>System to store and maintain detailed student records.</p>
+    </header>
+
+      <!-- form -->
+
+      <form action="#" class="field">
+
+        <!-- input field  -->
+
+        <div class="inputBox">
+          <input type="text" id="studentId" class="inputField" />
+          <label for="studentId" class="label">
+            Student ID<span>(number only)</span></label>
+        </div>
+
+        <div class="inputBox">
+          <input type="text" id="names" class="inputField" />
+          <label for="names" class="label"> Student Name </label>
+        </div>
+
+        <div class="inputBox">
+          <input type="text" id="roll" class="inputField" />
+          <label for="roll" class="label">
+            Roll No.<span>(number only)</span></label
+          >
+        </div>
+
+        <div class="inputBox">
+          <input type="text" class="inputField" id="classes"/>
+          <label for="classes" class="label"> Class</label>
+        </div>
+
+        <!-- button -->
+          
+        <div class="inputBox">
+          <button class="addBtn">Add</button>
+        </div>
+
+      </form>
+
+    </div>
+    
+    <!-- to display the data -->
+
+    <div class="display">
+       <!-- Heading for the table -->
+      <div class="displayHead">
+        <h5>ID</h5>
+        <h5>Name</h5>
+        <h5>RollNo</h5>
+        <h5>Class</h5>
+        <h5 class="none">assets</h5>
+      </div>
+
+
+    </div>
+
+
+    <script src="app.js"></script>
+  </body>
+</html>
